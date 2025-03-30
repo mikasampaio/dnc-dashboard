@@ -19,6 +19,7 @@ export const ContainerForm = styled.section`
   padding: 4rem;
   width: 50%;
   color: #ffffff;
+  align-items: center;
 
   @media screen and (max-width: 768px) {
     padding: 1rem;
