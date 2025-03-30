@@ -3,8 +3,17 @@ import { Button as ButtonStyles } from './styles'
 
 interface ButtonProps extends ComponentProps<'button'> {
   label: string
+  severity?: 'danger' | 'warning' | 'info' | 'primary'
 }
 
-export default function Button({ label, ...props }: ButtonProps) {
-  return <ButtonStyles {...props}>{label}</ButtonStyles>
+export default function Button({
+  label,
+  severity = 'primary',
+  ...props
+}: ButtonProps) {
+  return (
+    <ButtonStyles severity={severity} {...props}>
+      {label}
+    </ButtonStyles>
+  )
 }
