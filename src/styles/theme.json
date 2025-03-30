@@ -1,0 +1,8 @@
+{
+  "colors": {
+    "primary": "#0C70F2",
+    "danger": "#E80000",
+    "warning": "#FFA500",
+    "info": "#008d3d"
+  }
+}
