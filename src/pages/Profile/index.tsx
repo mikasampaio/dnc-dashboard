@@ -1,4 +1,4 @@
-import { Button, Header, Input } from '../../components'
+import { Button, Header, Input } from '@/components'
 import { Container, Content, Card } from './styles'
 
 export default function Profile() {

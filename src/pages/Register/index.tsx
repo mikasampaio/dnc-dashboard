@@ -1,6 +1,5 @@
-import { Button, Input } from '../../components'
+import { Button, Input } from '@/components'
 import { Container, ContainerForm, ContainerImage, Link, Title } from './styles'
-import Logo from '/logo.svg'
 import { useNavigate } from 'react-router'
 
 export default function Register() {
