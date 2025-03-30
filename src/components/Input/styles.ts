@@ -7,8 +7,14 @@ export const Input = styled.input`
   border-radius: 0.5rem;
   outline: none;
   padding: 0.75rem;
+  width: 100%;
+  max-width: 550px;
 
   &::placeholder {
     color: rgb(255, 255, 255, 0.6);
+  }
+
+  &:disabled {
+    background: rgb(255, 255, 255, 0.1);
   }
 `
